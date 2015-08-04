@@ -3,7 +3,7 @@ package com.coolweather.app.model;
 public class Province {
 	private int id;
 	private String provinceName;
-	private String proviceCode;
+	private String provinceCode;
 	
 	public int getId() {
 		return id;
@@ -17,11 +17,11 @@ public class Province {
 	public void setProvinceName(String provinceName) {
 		this.provinceName = provinceName;
 	}
-	public String getProviceCode() {
-		return proviceCode;
+	public String getProvinceCode() {
+		return provinceCode;
 	}
-	public void setProviceCode(String proviceCode) {
-		this.proviceCode = proviceCode;
+	public void setProvinceCode(String provinceCode) {
+		this.provinceCode = provinceCode;
 	}
 
 }
